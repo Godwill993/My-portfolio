@@ -1,0 +1,13 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  color: white;
+ 
+}
+body{
+  background-color: rgb(24, 18, 13);
+}
