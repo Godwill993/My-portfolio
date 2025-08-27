@@ -39,6 +39,24 @@ function NAvbar() {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 0.2rem;
+  position: relative;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color:rgb(198, 62, 62);
+  transition: width 0.3s ease;
+}
+
+a:hover::after {
+  width: 100%;
 }`}
  
 </style>

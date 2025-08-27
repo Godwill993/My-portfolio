@@ -14,7 +14,7 @@ function HeroSec() {
         </div>
       </div>
       <div className="image-part">
-        <img className="img2" src="/src/assets/mypic.png" />
+        <img className="img2" src="/src/assets/PXL_20250615_101901360.MP~2.png" />
         <img
           className="img1"
           src="/src/assets/vecteezy_3d-icon-play-button_17339076.png"
@@ -99,13 +99,36 @@ function HeroSec() {
     .first{
         background-color: rgb(198, 62, 62);
         color: white;
-        padding: 0.5rem 1.5rem;
+        padding-inline: 3rem;
+        padding-block: 0.7rem;
         border: none;
         cursor: pointer;
         font-weight: bold;  
-        wight: 120px;
+        margin-right: 2rem;
+     
 
     }   
+    .second{
+        background-color: transparent;
+          padding-inline: 3rem;
+        padding-block: 0.7rem;
+        color:rgb(198, 62, 62) ;
+        border: 2px solid rgb(198, 62, 62);
+        cursor: pointer;
+        font-weight: bold;
+        transition: 0.3s;
+        
+    }    
+.second:hover{
+    background-color: rgb(198, 62, 62);
+    color: white;
+    
+}
+    .first:hover{
+        background-color: transparent;
+        color: rgb(198, 62, 62);
+        border: 2px solid rgb(198, 62, 62);
+    }
   
 `}
       </style>
