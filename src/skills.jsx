@@ -22,7 +22,7 @@ function Skills (){
                 max-width: 100%;
                 margin: 20px auto;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                margin-top:200px;
+                margin-top:180px;
             }
             
             .skills li {

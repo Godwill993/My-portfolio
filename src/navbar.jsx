@@ -7,7 +7,7 @@ function NAvbar() {
       <a href="/about">About</a>
       <a href="/projects">Projects</a>
       <a href="/contact">Contact</a>
-      
+      <i class="fa-solid fa-bars"></i>
     </div>
    
   </nav>
@@ -17,7 +17,7 @@ function NAvbar() {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color:rgb(24, 18, 13);
+  background-color:rgba(24, 18, 13, 0.51);
   padding-left: 8rem;
   padding-right: 8rem;
   position: sticky;

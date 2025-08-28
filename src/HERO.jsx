@@ -91,7 +91,7 @@ function HeroSec() {
         height: 400px;
         margin-right: 8rem;
         margin-top: 18rem;
-        animation: spin 11s linear infinite;
+        animation: spin 15.1s linear infinite;
         z-index: 0;
     }
     @keyframes spin {
@@ -115,7 +115,7 @@ function HeroSec() {
         cursor: pointer;
         font-weight: bold;  
         margin-right: 2rem;
-     
+       font-size: 1.2rem;
 
     }   
     .second{
@@ -126,6 +126,7 @@ function HeroSec() {
         border: 2px solid rgb(198, 62, 62);
         cursor: pointer;
         font-weight: bold;
+        font-size: 1.2rem;
         transition: 0.3s;
         
     }    
