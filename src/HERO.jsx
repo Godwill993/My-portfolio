@@ -22,7 +22,7 @@ function HeroSec() {
       </div>
       <style>
         {`
-     
+   
 
 .hero-section {
     display: flex;
@@ -78,10 +78,11 @@ function HeroSec() {
   }
     .img2 {
         position: absolute;
-        top: 61%;
-        left: 44%;
-        transform: translate(-50%, -50%);
+        top: 0px;
+        right: 85px;
+      
         width: 540px;
+        z-index: 1;
        
         cursor: pointer;
     }
@@ -90,6 +91,15 @@ function HeroSec() {
         height: 400px;
         margin-right: 8rem;
         margin-top: 18rem;
+        animation: spin 11s linear infinite;
+        z-index: 0;
+    }
+    @keyframes spin {
+        from{
+            transform: rotate(0deg);}
+            to{
+                transform: rotate(360deg);
+            }
     }
     .forbutt{
         display: flex;
@@ -99,8 +109,8 @@ function HeroSec() {
     .first{
         background-color: rgb(198, 62, 62);
         color: white;
-        padding-inline: 3rem;
-        padding-block: 0.7rem;
+        padding-inline: 3.3rem;
+        padding-block: 1.3rem;
         border: none;
         cursor: pointer;
         font-weight: bold;  
@@ -110,8 +120,8 @@ function HeroSec() {
     }   
     .second{
         background-color: transparent;
-          padding-inline: 3rem;
-        padding-block: 0.7rem;
+          padding-inline: 3.3rem;
+        padding-block: 1.3rem;
         color:rgb(198, 62, 62) ;
         border: 2px solid rgb(198, 62, 62);
         cursor: pointer;
@@ -129,6 +139,20 @@ function HeroSec() {
         color: rgb(198, 62, 62);
         border: 2px solid rgb(198, 62, 62);
     }
+  @media (max-width: 768px) {
+    .hero-section {
+      flex-direction: column;
+      text-align: center;
+    }
+    .text-part {
+      align-items: center;
+      padding-left: 0;
+      margin-left: 0;
+    }
+    .image-part {
+      margin: 2rem 0;
+    }
+  }
   
 `}
       </style>
