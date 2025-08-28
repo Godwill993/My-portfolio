@@ -15,18 +15,17 @@ function HeroSec() {
       </div>
       <div className="image-part">
         <img
-          className="img2"
+          className="himg img2"
           src="/src/assets/PXL_20250615_101901360.MP~2.png"
         />
         <img
-          className="img1"
+          className=" himg img1"
           src="/src/assets/vecteezy_3d-icon-play-button_17339076.png"
         />
+        
       </div>
       <style>
         {`
-   
-
 .hero-section {
     display: flex;
   

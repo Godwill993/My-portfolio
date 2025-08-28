@@ -1,25 +1,4 @@
-function NAvbar() {
-  return (
-    <>
-      <nav>
-        <h3>LENDZELE GODWILL</h3>
-        <div className="links">
-          <a href="/">Home</a>
-          <a href="/about">About</a>
-          <a href="/projects">Projects</a>
-          <a href="/contact">Contact</a>
-          <img className="just-for" src="/src/assets/ICONS/discord-brands-solid-full.svg" alt="" />
-        </div>
-      </nav>
-      <style>
-        {`
-
-.just-for{
-filter: brightness(0) invert(1) ;
-width:50px;
-}
  nav{
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,10 +43,4 @@ a::after {
 
 a:hover::after {
   width: 100%;
-}`}
-      </style>
-    </>
-  );
 }
-
-export default NAvbar;

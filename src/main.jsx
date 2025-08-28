@@ -4,11 +4,15 @@ import "./index.css";
 import NAvbar from "./navbar.jsx";
 import HeroSec from "./HERO.jsx";
 import Skills from "./skills.jsx";
+import Qualification from "./FEW.jsx"
+import About from "./about.jsx"
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <NAvbar />
     <HeroSec />
     <Skills />
+    <Qualification />
+    <About/>
   </StrictMode>
 );

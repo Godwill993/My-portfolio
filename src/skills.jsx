@@ -31,7 +31,7 @@ function Skills() {
                 padding: 10px;
                 text-align: center;
                 font-weight: bold;
-                font-size: 2rem;
+                font-size: 1.4rem;
             }
         `}
       </style>
