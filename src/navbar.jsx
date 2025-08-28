@@ -1,17 +1,18 @@
 function NAvbar() {
-  return <>
-  <nav>
-    <h3>LENDZELE GODWILL</h3>
-    <div className="links">
-      <a href="/">Home</a>  
-      <a href="/about">About</a>
-      <a href="/projects">Projects</a>
-      <a href="/contact">Contact</a>
-      <i class="fa-solid fa-bars"></i>
-    </div>
-   
-  </nav>
-  <style>{`
+  return (
+    <>
+      <nav>
+        <h3>LENDZELE GODWILL</h3>
+        <div className="links">
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/projects">Projects</a>
+          <a href="/contact">Contact</a>
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+      <style>
+        {`
  nav{
   display: flex;
   justify-content: space-between;
@@ -58,10 +59,9 @@ a::after {
 a:hover::after {
   width: 100%;
 }`}
- 
-</style>
-
-  </>;
+      </style>
+    </>
+  );
 }
 
 export default NAvbar;

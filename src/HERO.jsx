@@ -14,7 +14,10 @@ function HeroSec() {
         </div>
       </div>
       <div className="image-part">
-        <img className="img2" src="/src/assets/PXL_20250615_101901360.MP~2.png" />
+        <img
+          className="img2"
+          src="/src/assets/PXL_20250615_101901360.MP~2.png"
+        />
         <img
           className="img1"
           src="/src/assets/vecteezy_3d-icon-play-button_17339076.png"

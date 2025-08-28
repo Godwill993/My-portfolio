@@ -1,17 +1,16 @@
-function Skills (){
-    return (
-        <div className="skills">
-       
-     
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>CSS</li>
-            <li>HTML</li>
-            <li>Git</li>
-            <li>GitHub</li>
-       
-        <style>{`
+function Skills() {
+  return (
+    <div className="skills">
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Node.js</li>
+      <li>CSS</li>
+      <li>HTML</li>
+      <li>Git</li>
+      <li>GitHub</li>
+
+      <style>
+        {`
             .skills{
             display: flex;
             justify-content: space-around;
@@ -34,8 +33,8 @@ function Skills (){
                 font-size: 2rem;
             }
         `}
-        </style>
-        </div>
-    )
+      </style>
+    </div>
+  );
 }
 export default Skills;
