@@ -74,6 +74,12 @@ function HeroSec() {
   .image-part {
   position: relative;
     margin-right: 10rem;
+    background: radial-gradient(circle, 
+   rgba(198, 62, 62, 0.28),      /* light red at center */
+   rgba(198, 62, 62, 0.12),     /* dark red */
+   rgb(24, 18, 13),     /* mostly black */
+   rgb(24, 18, 13)    /* black at edges */
+  );
    
    
    

@@ -12,7 +12,10 @@ createRoot(document.getElementById("root")).render(
     <NAvbar />
     <HeroSec />
     <Skills />
-    <Qualification />
+    <div className="sec-sec">
+       <Qualification />
     <About/>
+    </div>
+   
   </StrictMode>
 );

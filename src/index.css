@@ -11,3 +11,9 @@
 body{
   background-color: rgb(24, 18, 13);
 }
+.sec-sec{
+  display: flex;
+  
+  justify-content: space-between;
+  
+}
