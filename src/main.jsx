@@ -6,6 +6,7 @@ import HeroSec from "./HERO.jsx";
 import Skills from "./skills.jsx";
 import Qualification from "./FEW.jsx"
 import About from "./about.jsx"
+import CardGrid from "./projects.jsx" 
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -16,6 +17,7 @@ createRoot(document.getElementById("root")).render(
        <Qualification />
     <About/>
     </div>
+    <CardGrid  />
    
   </StrictMode>
 );

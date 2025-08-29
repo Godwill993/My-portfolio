@@ -75,10 +75,11 @@ function HeroSec() {
   position: relative;
     margin-right: 10rem;
     background: radial-gradient(circle, 
-   rgba(198, 62, 62, 0.28),      /* light red at center */
-   rgba(198, 62, 62, 0.12),     /* dark red */
-   rgb(24, 18, 13),     /* mostly black */
-   rgb(24, 18, 13)    /* black at edges */
+   rgba(198, 62, 62, 0.28),     
+    rgb(24, 18, 13),    
+   rgb(24, 18, 13),    
+   rgb(24, 18, 13) 
+   width: 50%;   
   );
    
    
@@ -95,7 +96,7 @@ function HeroSec() {
         cursor: pointer;
     }
     .img1 {
-        width: 460px;
+        width: 500px;
         height: 400px;
         margin-right: 8rem;
         margin-top: 18rem;

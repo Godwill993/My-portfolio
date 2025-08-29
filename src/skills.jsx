@@ -20,7 +20,7 @@ function Skills() {
                position: relative;
                 z-index: 10;
                 max-width: 100%;
-              
+              margin-top:180px;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                
                 margin-bottom: 80px;

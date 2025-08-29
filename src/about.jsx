@@ -4,10 +4,11 @@ function About(){
         <div className="ooo">
             <div className="life">
                 <h1>About Me</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, reprehenderit culpa neque ipsam aliquam labore magni illum
-                 rem esse praesentium explicabo ad sed architecto, iusto distinctio libero quae quis voluptates! Lorem ipsum dolor, sit amet 
-                 consectetur adipisicing elit. Architecto asperiores quasi doloremque ullam blanditiis perspiciatis nesciunt vero. Dolore voluptatum 
-                 quos, quas accusantium labore alias ad reiciendis sint reprehenderit omnis vitae.</p>
+            <p>Hi, my name is LENDZELE GODWILL. I'm a passionate and motivated web developer who began my coding journey just two months ago. Despite being early in my path, I've made rapid progress and already have a solid understanding of key web technologies — from HTML, CSS, and JavaScript all the way up to Node.js.
+
+I'm currently gaining hands-on experience through an internship at TIC Foundation, where I’m working on real-world projects, collaborating with other developers, and deepening my skills in full-stack development. I’m especially excited by backend development and building scalable, efficient web applications.
+
+Every day, I strive to learn more, build better, and grow as a developer.</p>
             </div>
             <div className="analysis">
                 <div>
@@ -15,12 +16,12 @@ function About(){
                     <p>Lorem ipsum dolor sit amet consect</p>
                 </div>
                 <div>
-                     <h1>78 <span>+</span></h1>
-                    <p>Lorem ipsum dolor sit amet consect</p>
+                     <h1>250 <span>+</span></h1>
+                    <p>Number of commits so far</p>
                 </div>
                 <div>
-                     <h1>78 <span>+</span></h1>
-                    <p>Lorem ipsum dolor sit amet consect</p>
+                     <h1>15 <span>+</span></h1>
+                    <p>Number of projects worked on</p>
                 </div>
                 <div>
                      <h1>78 <span>+</span></h1>
