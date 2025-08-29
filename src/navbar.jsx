@@ -9,7 +9,7 @@ function NAvbar() {
           <a href="/projects">Projects</a>
           <a href="/contact">Contact</a>
            </div>
-          <img className="just-for" src="/src/assets/ICONS/discord-brands-solid-full.svg" alt="" />
+          <img className="just-for" src="/src/assets/ICONS/bars-solid-full.svg" alt="" />
        
       </nav>
       <style>
@@ -17,7 +17,7 @@ function NAvbar() {
 
 .just-for{
 filter: brightness(0) invert(1) ;
-width:50px;
+width:40px;
 display: none;
 }
  nav{

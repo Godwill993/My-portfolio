@@ -87,7 +87,7 @@ function HeroSec() {
     .img2 {
         position: absolute;
         top: 0px;
-        right: 85px;
+        right: 80px;
       
         width: 540px;
         z-index: 1;
@@ -157,16 +157,21 @@ function HeroSec() {
       align-items: center;
       padding-left: 0;
       margin-left: 0;
+    
     }
     .image-part {
       margin: 2rem 0;
+        background: rgb(24, 18, 13);
     }
       .img2{
         width: 340px;
-        height: auto;}
+        height: auto;
+        
+        margin-right: -1rem;}
         }
         .img1{
-            width: 200px;}
+        margin-right: 12rem;
+            width: 180px;}
             .img-part{
             width: 100%;}
             .first{
