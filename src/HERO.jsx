@@ -161,7 +161,20 @@ function HeroSec() {
     .image-part {
       margin: 2rem 0;
     }
-  }
+      .img2{
+        width: 340px;
+        height: auto;}
+        }
+        .img1{
+            width: 200px;}
+            .img-part{
+            width: 100%;}
+            .first{
+                padding-inline: 2rem;
+                padding-block: 1rem;
+                font-size: 0.8rem;
+                margin-right: 8px;
+            }
   
 `}
       </style>

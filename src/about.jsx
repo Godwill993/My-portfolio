@@ -41,6 +41,7 @@ function About(){
                 {`
                 p{
                 line-height: 1.6rem;
+                font-size: 1.2rem;
                 }
                 h1{
                 margin-bottom: 20px;
@@ -56,6 +57,27 @@ function About(){
                 }
                 .analysis div{
                 width: 100px;
+                }
+                @media (max-width: 768px) {
+                    .ooo{
+                        width: 90%;
+                        margin: auto;
+                        margin-top: 50px;
+                        margin-bottom: 50px;
+                    }
+                    .analysis{
+                        flex-direction: column;
+                        gap: 20px;
+                        align-items: center;
+                    }
+                    .analysis div{
+                        width: 200px;
+                        text-align: center;
+                    }
+                        p{
+                            font-size: 1rem;
+                            text-align: center;
+
                 }
 
                 `}

@@ -23,6 +23,7 @@ function Skills() {
                 margin: 20px auto;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                 margin-top:180px;
+                margin-bottom: 80px;
             }
             
             .skills li {
@@ -32,6 +33,16 @@ function Skills() {
                 text-align: center;
                 font-weight: bold;
                 font-size: 1.4rem;
+            }
+            @media (max-width: 768px) {
+                .skills {
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 15px;
+                    margin-top: 100px;
+                    margin-bottom: 50px;
+                    margin-top:-122px;
+                }
             }
         `}
       </style>

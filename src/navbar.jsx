@@ -8,8 +8,9 @@ function NAvbar() {
           <a href="/about">About</a>
           <a href="/projects">Projects</a>
           <a href="/contact">Contact</a>
+           </div>
           <img className="just-for" src="/src/assets/ICONS/discord-brands-solid-full.svg" alt="" />
-        </div>
+       
       </nav>
       <style>
         {`
@@ -17,6 +18,7 @@ function NAvbar() {
 .just-for{
 filter: brightness(0) invert(1) ;
 width:50px;
+display: none;
 }
  nav{
 
@@ -64,7 +66,23 @@ a::after {
 
 a:hover::after {
   width: 100%;
-}`}
+}
+@media (max-width: 768px) {
+ 
+  nav{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .links{
+    display: none;
+  }
+  .just-for{
+    display: block;
+  }
+}
+
+
+`}
       </style>
     </>
   );
