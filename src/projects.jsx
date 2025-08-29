@@ -6,7 +6,7 @@ const CardGrid = () => {
     borderRadius: '8px',
     padding: '20px',
     textAlign: 'center',
-    width: '400px',
+    width: '340px',
     margin: '20px',
     boxShadow: '0 2px 8px rgb(83, 79, 77)',
   };
@@ -44,44 +44,44 @@ const CardGrid = () => {
         </div>
           </a>
           <a href="">
-             <div style={cardStyle}>
+             <div className="cardStyle" style={cardStyle}>
          <img style={ok} src="/src/assets/ICONS/code-solid-full (9).svg" alt="" />
           <div>{loremText}</div>
         </div>
           </a>
           
          <a href="">
-          <div style={cardStyle}>
+          <div className="cardStyle"  style={cardStyle}>
          <img style={ok} src="/src/assets/ICONS/code-solid-full (9).svg" alt="" />
           <div>{loremText}</div>
         </div>
          </a>
           <a href="">
-            <div style={cardStyle}>
+            <div className="cardStyle"  style={cardStyle}>
          <img style={ok} src="/src/assets/ICONS/code-solid-full (9).svg" alt="" />
           <div>{loremText}</div>
         </div>
           </a>
           <a href="">
-            <div style={cardStyle}>
+            <div  className="cardStyle" style={cardStyle}>
          <img style={ok} src="/src/assets/ICONS/code-solid-full (9).svg" alt="" />
           <div>{loremText}</div>
         </div>
           </a>
           <a href="">
-            <div style={cardStyle}>
+            <div  className="cardStyle" style={cardStyle}>
          <img style={ok} src="/src/assets/ICONS/code-solid-full (9).svg" alt="" />
           <div>{loremText}</div>
         </div>
           </a>
           <a href="">
-            <div style={cardStyle}>
+            <div  className="cardStyle" style={cardStyle}>
          <img style={ok} src="/src/assets/ICONS/code-solid-full (9).svg" alt="" />
           <div>{loremText}</div>
         </div>
           </a>
           <a href="">
-             <div style={cardStyle}>
+             <div  className="cardStyle" style={cardStyle}>
          <img style={ok} src="/src/assets/ICONS/code-solid-full (9).svg" alt="" />
           <div>{loremText}</div>
         </div>
@@ -103,6 +103,9 @@ const CardGrid = () => {
               flex-direction: column;
               align-items: center;
             }
+              .cardStyle{
+                width: 90%;
+                margin: auto;}
           }
           `}
         </style>

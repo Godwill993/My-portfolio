@@ -17,7 +17,7 @@ createRoot(document.getElementById("root")).render(
        <Qualification />
     <About/>
     </div>
-    <CardGrid  />
+   <CardGrid  />  
    
   </StrictMode>
 );
