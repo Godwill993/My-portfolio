@@ -37,23 +37,23 @@ const CardGrid = () => {
       
       
         <div style={all} className="ALL">
-          <a href="">
+          <a href="https://tic-info-web.vercel.app/">
               <div style={cardStyle}>
          <img style={ok} src="/src/assets/ICONS/code-solid-full (9).svg" alt="" />
           <div>{loremText}</div>
         </div>
           </a>
-          <a href="">
+          <a href="https://godwill993.github.io/">
              <div className="cardStyle" style={cardStyle}>
          <img style={ok} src="/src/assets/ICONS/code-solid-full (9).svg" alt="" />
-          <div>{loremText}</div>
+          <div>Tution waiver page</div>
         </div>
           </a>
           
-         <a href="">
+         <a href="https://pomodoro-zeta-opal.vercel.app/">
           <div className="cardStyle"  style={cardStyle}>
          <img style={ok} src="/src/assets/ICONS/code-solid-full (9).svg" alt="" />
-          <div>{loremText}</div>
+          <div>A study timer</div>
         </div>
          </a>
           <a href="">
@@ -62,10 +62,10 @@ const CardGrid = () => {
           <div>{loremText}</div>
         </div>
           </a>
-          <a href="">
+          <a href="https://co-working-space-six.vercel.app/">
             <div  className="cardStyle" style={cardStyle}>
          <img style={ok} src="/src/assets/ICONS/code-solid-full (9).svg" alt="" />
-          <div>{loremText}</div>
+          <div>workers log book</div>
         </div>
           </a>
           <a href="">
@@ -94,9 +94,9 @@ const CardGrid = () => {
             text-decoration: none;
             color: white;
           }
-          .ALL a:hover{
+           a:hover{
             transform: scale(1.05);
-            transition: all 0.3s ease-in-out;
+            transition:  0.3s ease-in-out;
           }
           @media (max-width: 768px) {
             .ALL {
